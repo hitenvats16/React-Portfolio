@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.fonts-source-code-pro{
+  font-family: 'Source Code Pro', monospace;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 20px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #0E204A;
+  
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #6e6c7b;
+  border-radius: 100vh;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #D0CFE0;
+}
+
