@@ -12,7 +12,7 @@ const App = () => {
 
   useEffect(()=>{
     setTimeout(()=>{
-      setLoading(false)
+      setLoading(false);
     },5000);
   })
 

@@ -4,7 +4,7 @@ const LoadingPage = () => {
         <div className='w-full h-screen bg-secondry'>
             <ParticlesContainer config = {config} />
             <div className="w-full h-full flex items-center justify-center">
-                <img src="https://www.nyan.cat/cats/original.gif" className="w-32" alt="nayan cat" />
+                <img src="https://www.nyan.cat/cats/balloon.gif" className="w-32" alt="nayan cat" />
             </div>
         </div>
     )
