@@ -22,7 +22,7 @@ const Content = () => {
     }
 
     return (
-        <div className="w-full h-full xl:max-w-[875px] xl:max-h-[800px] bg-secondry rounded-lg backdrop-blur-xl shadow-2xl">
+        <div className="w-full backdrop-blur-sm h-full xl:max-w-[875px] xl:max-h-[800px] bg-secondry/[.7] rounded-lg shadow-2xl">
             <nav className="w-full flex">
 
                 <div >
@@ -61,7 +61,7 @@ const RightHeroSection = () => {
         <div data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-offset="0"
-            className=" w-full col-span-6 h-screen bg-background xl:flex xl:justify-center xl:items-center xl:px-10 xl:py-16">
+            className=" w-full col-span-6 h-screen xl:flex xl:justify-center xl:items-center xl:px-10 xl:py-16">
             <Content />
         </div>
     );
